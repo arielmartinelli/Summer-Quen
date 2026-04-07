@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { ShoppingBag, X, Scissors, Printer, Shirt, Phone, Crown, Trash2, Plus, Minus, MessageCircle, Menu } from 'lucide-react';
+import { ShoppingBag, X, Scissors, Printer, Shirt, Phone, Trash2, Plus, Minus, MessageCircle, Menu } from 'lucide-react';
 import { PRODUCTS, CATEGORIES } from './data/products';
 
 const WHATSAPP_NUMBER = "5493516121498";
@@ -94,8 +94,7 @@ function App() {
       <nav className={`navbar ${scrolled ? 'scrolled' : ''}`}>
         <div className="container navbar-content">
           <div className="brand-logo">
-            <Crown color="var(--accent-orange)" size={24} />
-            <span className="font-heading">SUMMER <span style={{ color: 'var(--accent-orange)' }}>QUEN</span></span>
+            <img src="/logo.png" alt="Summer Quen Logo" className="navbar-logo" />
           </div>
 
           {/* Desktop links */}
@@ -252,8 +251,7 @@ function App() {
         <div className="container footer-grid">
           <div>
             <div className="brand-logo" style={{ marginBottom: '1rem' }}>
-              <Crown color="var(--accent-orange)" size={24} />
-              <span className="font-heading">SUMMER <span style={{ color: 'var(--accent-orange)' }}>QUEN</span></span>
+              <img src="/logo.png" alt="Summer Quen Logo" className="footer-logo" />
             </div>
             <p className="footer-tagline">Elegancia, precisión y color para tu vestir diario o tus emprendimientos.</p>
           </div>

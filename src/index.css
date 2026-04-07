@@ -177,6 +177,23 @@ img { max-width: 100%; display: block; }
   color: var(--primary-blue);
 }
 
+.navbar-logo {
+  height: 48px;
+  width: auto;
+  object-fit: contain;
+  display: block;
+}
+@media (min-width: 640px) { .navbar-logo { height: 56px; } }
+
+.footer-logo {
+  height: 56px;
+  width: auto;
+  object-fit: contain;
+  display: block;
+  filter: brightness(0) invert(1);  /* blanco para el footer oscuro */
+  margin-bottom: 0.75rem;
+}
+
 .nav-links {
   display: none;
   gap: 2rem;

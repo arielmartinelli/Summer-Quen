@@ -147,7 +147,7 @@ function App() {
           </div>
           <div className="hero-image-wrapper">
             <div className="hero-image-bg"></div>
-            <img src="/assets/hero.png" alt="Summer Quen Indumentaria" className="hero-image" />
+            <img src="/assets/hero.jpeg" alt="Summer Quen Indumentaria" className="hero-image" />
           </div>
         </div>
       </section>
